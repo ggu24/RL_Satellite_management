@@ -29,3 +29,19 @@ This project implements a reinforcement learning (RL) agent capable of autonomou
 - Successful missions correspond to complete exploration of all orbits with optimized delta-v usage (~1.04 m/s total).
 - Learned behavior includes energy-aware battery recharge and buffer management, with minimal unnecessary transfers.
 
+
+## Dependencies
+
+- Python 3.8+
+- gymnasium
+- stable-baselines3
+- PyTorch
+- NumPy
+- Matplotlib (for visualizations)
+
+You can install all dependencies using:
+
+```bash
+pip install -r requirements.txt
+
+
